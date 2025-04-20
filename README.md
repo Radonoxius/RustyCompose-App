@@ -2,7 +2,7 @@
 A Jetpack Compose (android) app with Rust!
 
 ### Prerequisites
-The Android NDK, Rust 1.85 or higher and Linux.
+The Android NDK, Rust 1.85 (edition 2024) or higher and Linux.
 
 ### Usage
 Configure the (absolute) path of the NDK-clang in `rust/.cargo/config.toml` file. This config is applicable for all crates in `rust` folder. Replace all '<>'.
@@ -20,5 +20,10 @@ Move the generated libs from `target` to the `main/jniLibs/<target_abi>` folders
 Failure to do any of these will lead to a crashy app.
 
 And sorry, Android Studio cant help managing rust sources. Prefer VSCode/RustRover for Rust.
+
+You can build and install the app on-device with:
+```
+./gradlew installDebug
+```
 
 Finally build the app!
