@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Playground"
+rootProject.name = "RustyCompose-App"
 include(":app")
