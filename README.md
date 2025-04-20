@@ -1,5 +1,5 @@
 # RustyCompose-App
-A Jetpack Compose (android) app with Rust!
+A Jetpack Compose (android) app with Rust integration!
 
 ### Prerequisites
 The Android NDK, Rust 1.85 (edition 2024) or higher and Linux.
