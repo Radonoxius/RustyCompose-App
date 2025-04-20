@@ -5,7 +5,7 @@ A Jetpack Compose (android) app with Rust!
 The Android NDK, Rust 1.85 (edition 2024) or higher and Linux.
 
 ### Usage
-Configure the (absolute) path of the NDK-clang in `rust/.cargo/config.toml` file. This config is applicable for all crates in `rust` folder. Replace all '<>'.
+Configure the (absolute) path of the NDK-clang in `rust/.cargo/config.toml` file. This config is common for all crates in `rust` folder. Replace all '<>'.
 
 You can add native android dependencies to crates individually using `build.rustflags` key in individual crate's config.toml.
 
