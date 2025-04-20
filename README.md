@@ -15,6 +15,6 @@ cargo b --release --target <arch>
 ```
 
 
-Move the generated libs from `target` to the `jniLibs/<target_abi>` folders
+Move the generated libs from `target` to the `main/jniLibs/<target_abi>` folders
 
 Finally build the app!
